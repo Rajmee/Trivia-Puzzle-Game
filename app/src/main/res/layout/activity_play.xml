@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajme.triviaapp.PlayActivity"
+    android:orientation="vertical"
+    android:background="@color/purple">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:text="Round"
+            android:textSize="40sp"
+            android:layout_weight="0.18"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+    <TableRow
+        android:id="@+id/hr2"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="#444"/>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Tap into country name"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TableRow
+        android:id="@+id/hr1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#444"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rView"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:layout_weight="0.74" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etxt2"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edittext_background"
+            android:hint="Enter the city name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIMER"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.26"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

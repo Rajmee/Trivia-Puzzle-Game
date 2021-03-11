@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/purple"
+    tools:context="com.example.rajme.triviaapp.RegisActivity">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_below="@+id/linearLayout2"
+            android:text="Register" />
+
+        <EditText
+            android:id="@+id/edtxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:textColorHint="@color/white"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/edtxt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:textColorHint="@color/white"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/edtxt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:textColorHint="@color/white"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/edtxt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:textColorHint="@color/white"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="180sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="Register"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
